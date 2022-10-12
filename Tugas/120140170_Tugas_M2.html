@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas Praktikum Pemrograman Web Pertemuan 2</title>
+      
+        <style>
+        header{
+            background: #EEEEEE;
+            font-family: Helvetica;
+            image-resolution: maxwidth;
+            color: #EEEEEE;
+        }
+        h1{
+            font-size: 40px;
+            color: #DA0037;
+        }
+        h2{
+            width: 30%;
+            height: 30px;
+            background-color: #2B2B2B;
+            color: white;
+            text-align: center;  
+        }
+        h3{
+            color: #DA0037;
+            text-align: left;
+            display: flex;
+        }
+        h4{
+            color: white;
+            text-align: left;
+            display: flex;
+        }
+        p{
+            background-color: #DA0037;
+            color: white;
+            display: flex;
+            font-size: 18px;
+            float: left;
+            text-align: left;
+        }
+        img.right{
+            float: right;
+            margin: 5px;
+        }
+        img.kiri{
+            float: right;
+            margin: 5px;
+        }
+        .navigation{
+            font-size: 20px;
+            background-color: #DA0037;
+            text-align: right;
+            justify-content: right;
+        }
+        .about{
+            width: 45%;
+            height: 300px;
+            background-color: white;
+            display: flow-root;
+            float: left;
+        }
+        .video{
+            width: 45%;
+            height: 300px;
+            display: flex;
+            float: right;
+            align-items: center;
+        }
+        .tabel{
+            width: 100%;
+            height: 375px;
+            display: flow-root;
+            float: left;
+        }
+        .contact{
+            width: 45%;
+            height: 330px;
+            background-color: #DA0037;
+            display: flow-root;
+            float: left;
+            text-align: left;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            background: #DA0037;
+            color: white;
+            position: absolute;
+            bottom: -950px;
+        }
+        </style>
+        
+  </head>
+  <body>
+      	<header>
+      		<table>
+            	<tr>
+                	<td>
+          				<img src="http://sso.itera.ac.id/assets/img/20220814234302_pandu_120140170_student_itera_ac_id.jpg" alt="Pandu" width="250" height="250">
+                    <td>
+                    	<h1>Pandu Wiratama</h1>
+                    	<h3>Lampung - Indonesia</h3>
+                	</td>
+            	</tr>
+      		</table>
+		</header>
+      	<nav>
+        	<div class="navigation">
+        		<a href="#tentangsaya"> Tentang Saya</a>
+        		<a href="#jadwalkuliah"> Jadwal Kuliah</a>     
+      		</div>
+     	</nav>
+        <br>
+        <aside>
+        	    <div class="video">
+                  <iframe
+                    width="700"
+                    height="300"
+                    src="https://www.youtube.com/embed/5DPTz-hRG4c"
+                    title="YouTube video player"
+                    allowfullscreen>
+                  </iframe>
+            </div>
+        </aside>	
+      	<main>
+        	<div class="about">
+          		<h2 id="tentangsaya">Tentang Saya</h2>
+                  <p>Nama saya adalah Pandu Wiratama. Saya berasal dari Dusun Taman Rejo RT.003 RW.005 Bernung, Kecamatan Gedong Tataan Kabupaten Pesawaran - Lampung. Saat ini saya sedang menjalani pendidikan semester 5 di perguruan tinggi Institut Teknologi Sumatera dengan mengambil program studi Teknik Informatika.
+             	 </p>
+       		</div>
+            <div class="tabel">
+            	<h2 id="jadwalkuliah">Jadwal Kuliah</h2>
+           		<table border="1">
+                	<tr style="background-color: #DA0037">
+                      <th rowspan="3">No</th>
+                      <th rowspan="3">Hari</th>
+                      <th rowspan="3">Mata Kuliah</th>
+                          <tr style="background-color: #DA0037">
+                              <th colspan="2">Waktu</th>
+                          </tr>
+                          <tr style="background-color: #DA0037">
+                              <th>Mulai</th>
+                              <th>Selesai</th>
+                          </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Senin</td>
+                        <td>Jaringan Komputer</td>
+                        <td>10.15</td>
+                        <td>12.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Senin</td>
+                        <td>Sistem Informasi</td>
+                        <td>13.20</td>
+                        <td>15.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kamis</td>
+                        <td>Manajemen Proyek Teknologi Informasi</td>
+                        <td>07.30</td>
+                        <td>10.00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kamis</td>
+                        <td>Interaksi Manusia dan Komputer</td>
+                        <td>13.00</td>
+                        <td>15.00</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jumat</td>
+                        <td>Pemrograman Web</td>
+                        <td>07.00</td>
+                        <td>08.40</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Jumat</td>
+                        <td>Intelegensi Buatan</td>
+                        <td>09.30</td>
+                        <td>12.00</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Jumat</td>
+                        <td>Manajemen Basis Data</td>
+                        <td>13.30</td>
+                        <td>15.30</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Jumat</td>
+                        <td>Sistem Tertanam</td>
+                        <td>15.30</td>
+                        <td>17.10</td>
+                    </tr>
+      			</table>
+      		</div>
+            <div class="contact">
+                <h2>Kenalan dong</h2>
+                <form method="get">
+                    <label for="Cari">Nama :</label>
+                    <input type="text" id="Cari" name="Cari" >
+					<br>
+      				<h4>Sudah tahu kontak saya ?</h4>
+                    <input type="radio" name="fav_belum" value="Belum">Belum
+                    <br>
+                    <input type="radio" name="fav_sudah" value="Sudah">Sudah
+                    <br>
+                    <br>
+                    <input type="checkbox" name="kontak" id="linkedin" value="linkedin">likedin
+                    <br>
+                    <input type="checkbox" name="kontak" id="github" value="github">github
+                    <br>
+                    <input type="checkbox" name="kontak" id="instagram" value="instagram">instagram
+                    <br>
+                    <input type="checkbox" name="kontak" id="no.telp" value="no.telp">no.telp
+                    <br>
+                    <br>
+                    <button type="button">Kirim</button>
+				</form>
+			</div>
+            <div class="footer">
+            	Pandu Wiratama	|	120140170
+            </div>
+        </main>
+    </body>
+</html>

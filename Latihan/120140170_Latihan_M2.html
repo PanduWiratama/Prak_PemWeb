@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan Praktikum Pemrograman Web Pertemuan 2</title>
+        
+        <style>
+        header{
+            background: #F8F400;
+            font-family: Helvetica;
+            image-resolution: maxwidth;
+            color: #F8F400;
+        }
+        h1{
+            font-size: 40px;
+            color: black;
+        }
+        h2{
+            width: 30%;
+            height: 30px;
+            background-color: #E33131;
+            color: white;
+            text-align: center;  
+        }
+        h3{
+            color: black;
+            text-align: left;
+            display: flex;
+        }
+        p{
+            background-color: #F8F400;
+            color: black;
+            display: flex;
+            font-size: 18px;
+            float: left;
+            text-align: left;
+        }
+        img.right{
+            float: right;
+            margin: 5px;
+        }
+        img.kiri{
+            float: right;
+            margin: 5px;
+        }
+        .navigation{
+            font-size: 20px;
+            background-color: #E33131;
+            text-align: right;
+            justify-content: right;
+        }
+        .about{
+            width: 55%;
+            height: 300px;
+            background-color: white;
+            display: flow-root;
+            float: left;
+        }
+        .video{
+            width: 40%;
+            height: 300px;
+            display: flex;
+            float: right;
+            align-items: center;
+        }
+        .tabel{
+            width: 100%;
+            height: 375px;
+            display: flow-root;
+            float: left;
+        }
+        .country{
+            width: 60%;
+            height: 500px;
+            background-color: #F8F400;
+            display: flow-root;
+            float: left;
+            text-align: left;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            line-height: 50px;
+            background: #E33131;
+            color: white;
+            position: absolute;
+            bottom: -1100px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <table>
+            	<tr>
+                	<td>
+                      <img src="https://upload.wikimedia.org/wikipedia/id/thumb/4/49/Seal_of_ASEAN.svg/800px-Seal_of_ASEAN.svg.png" alt="ASEAN" width="250" height="250">
+                    <td>
+                        <h1>Association of Southeast Asian Nations</h1>
+                    </td>
+            	</tr>
+            </table>
+    	</header>
+        <nav>
+        	<div class="navigation">
+            	<a href="#about">Tentang</a>
+                <a href="#sejarah">Masuk keanggotaan</a>
+                <a href="#negara">Negara ASEAN</a>
+            </div>
+        </nav>
+    	<br>
+        <aside>
+        	<div class="video">
+            	<iframe
+                width="700"
+                height="300"
+                src="https://www.youtube.com/embed/WAnfj8v5acM"
+                title="YouTube video player"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </aside>
+        <main>
+            <div class="about">
+                <h2 id="about">Tentang ASEAN</h2>
+                <p>
+                  Perhimpunan Bangsa-Bangsa Asia Tenggara (Perbara) atau lebih populer dengan sebutan ASEAN (Association of Southeast Asian Nations) merupakan sebuah organisasi geopolitik dan Ekonomi dari negara-negara di kawasan Asia Tenggara, yang didirikan di Bangkok, Thailand pada Tanggal 8 Agustus 1967 berdasarkan Deklarasi Perbara oleh Indonesia, Malaysia, Filipina, Singapura, dan Thailand. Organisasi ini bertujuan untuk meningkatkan pertumbuhan ekonomi, kemajuan sosial, dan pengembangan kebudayaan negara-negara anggotanya, memajukan perdamaian dan kestabilan di tingkat regional, serta meningkatkan kesempatan untuk membahas perbedaan di antara anggotanya dengan cara yang damai.
+                </p>
+            </div>
+            <div class="tabel">      
+            	<h2 id="sejarah">Masuk keanggotaan</h2>
+                <table border="1">
+                          <tr style="background-color: #F8F400">
+                              <th>No</th>
+                              <th>Negara</th>
+                              <th>Tahun Masuk</th>
+                          </tr>
+                          <tr>
+                              <td>1.</td>
+                              <td>Indonesia</td>
+                              <td>8 Agustus 1967</td>
+                          </tr>
+                          <tr>
+                              <td>2.</td>
+                              <td>Malaysia</td>
+                              <td>8 Agustus 1967</td>
+                          </tr>
+                          <tr>
+                              <td>3.</td>
+                              <td>Singapura</td>
+                              <td>8 Agustus 1967</td>
+                          </tr>
+                          <tr>
+                              <td>4.</td>
+                              <td>Thailand</td>
+                              <td>8 Agustus 1967</td>
+                          </tr> 
+                          <tr>
+                              <td>5.</td>
+                              <td>Filipina</td>
+                              <td>8 Agustus 1967</td>
+                          </tr>
+                          <tr>
+                              <td>6.</td>
+                              <td>Brunei</td>
+                              <td>7 Januari 1984</td>
+                          </tr>
+                          <tr>
+                              <td>7.</td>
+                              <td>Vietnam</td>
+                              <td>28 Juli 1995</td>
+                          </tr>
+                          <tr>
+                              <td>8.</td>
+                              <td>Laos</td>
+                              <td>23 Juli 1997</td>
+                          </tr>
+                          <tr>
+                              <td>9.</td>
+                              <td>Myanmar</td>
+                              <td>23 Juli 1997</td>
+                          </tr>
+                          <tr>
+                              <td>10.</td>
+                              <td>Myanmar</td>
+                              <td>30 April 1999</td>
+                          </tr>
+                  </table>
+			</div>
+            <div class="country">
+    			<h2 id="country"> Negara ASEAN</h2>
+                <form method="get">
+                    <label for="Cari">Cari :</label>
+                    <input type="text" id="Cari" name="Cari" >
+					<br>
+                	<h3>Sudah tahu semua negara ASEAN ?</h3>
+                    <input type="radio" name="pilih" value="sudah">sudah
+                    <br>
+                    <input type="radio" name="pilih" value="belum">belum
+                    <br>
+                	<h3>Negara mana yang termasuk negara ASEAN ?</h3>
+                	<input type="checkbox" name="negara" value="Indonesia"> Indonesia
+                    <br>
+                    <input type="checkbox" name="negara" value="Malaysia"> Malaysia
+                    <br>
+                    <input type="checkbox" name="negara" value="Singapura"> Singapura
+                    <br>
+                    <input type="checkbox" name="negara" value="Thailand"> Thailand
+                    <br>
+                    <input type="checkbox" name="negara" value="Filipina"> Filipina
+                    <br>
+                    <input type="checkbox" name="negara" value="Brunei"> Brunei
+                    <br>
+                    <input type="checkbox" name="negara" value="Vietnam"> Vietnam
+                    <br>
+                    <input type="checkbox" name="negara" value="Laos"> Laos
+                    <br>
+                    <input type="checkbox" name="negara" value="Myanmar"> Myanmar
+                    <br>
+                    <input type="checkbox" name="negara" value="Kamboja"> Kamboja
+                    <br>
+                    <br>
+                    <button type="button">Kirim</button>
+                </form>
+            </div>
+            <div class="footer">
+            	Pandu Wiratama	|	120140170
+            </div>
+        </main>
+    </body>
+</html>

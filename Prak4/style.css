@@ -1,0 +1,117 @@
+:root {
+    --first-color: #9EFD38;
+    --second-color: #fcfcfc;
+    --third-color: #171717;
+    --fourth-color: #9738FD;
+}
+.terang {
+    --first-color: #FD383C;
+    --second-color: #171717;
+    --third-color: #ffffff;
+    --fourth-color: #9738FD;
+}
+
+* {
+    font-family: Helvetica;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: var(--third-color);
+}
+
+table {
+    width: 650px;
+    border: none;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    border-radius: 10px;
+}
+
+nav {
+    border: none;
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border-radius: 10px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: var(--first-color);
+    border-radius: 20px;
+    color: var(--third-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+input {
+    border-radius: 10px;
+}
+
+iframe {
+    width: 420px;
+    height: 230px;
+    background-color: var(--first-color);
+    border-radius: 10px;
+    color: var(--third-color);
+}
+
+button {
+    border: none;
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 10px;
+}
+
+#tombol {
+    width: 75px;
+}
+
+#img {
+    width: 100px;
+    background-color: var(--first-color);
+    border-radius: 5%;
+    color: var(--third-color);
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: Helvetica;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    body {
+        background-color: var(--third-color);
+    }  
+    
+    iframe {
+        width: 240px;
+        height: 125px;
+        background-color: var(--first-color);
+        border-radius: 5px;
+        color: var(--third-color);
+    }
+
+    table {
+        width: 100px;
+        border: none;
+        background-color: var(--third-color);
+        color: var(--second-color);
+        border-radius: 10px;
+    }
+
+    #img {
+        width: 50px;
+        background-color: var(--first-color);
+        border-radius: 5%;
+        color: var(--third-color);
+    }
+}
